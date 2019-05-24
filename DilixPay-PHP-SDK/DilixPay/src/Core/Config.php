@@ -11,7 +11,7 @@ class Config
     /**
      * The library version
      */
-    const LIBRARY_VERSION = '1.1.0';
+    const LIBRARY_VERSION = '1.1.1';
 
     /**
      * PHP minimal version required by this library

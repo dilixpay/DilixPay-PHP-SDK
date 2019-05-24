@@ -16,7 +16,7 @@ class DilixPayConstants
     /**
      * The library version
      */
-    const LIBRARY_VERSION = '1.1.0';
+    const LIBRARY_VERSION = '1.1.1';
 
     /**
      * api base url
