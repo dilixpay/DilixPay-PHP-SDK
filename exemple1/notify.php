@@ -1,5 +1,5 @@
 <?php
-require_once ('/var/www/html/DilixPay-PHP-SDK/DilixPay/autoload.php');
+require_once ('/var/www/html/DilixPay-PHP-SDK-1.1.0/DilixPay-PHP-SDK/DilixPay/autoload.php');
 
 require_once "dbConfig.php";
 

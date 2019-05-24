@@ -2,9 +2,9 @@
 
 //changer /var/www/html/ par le chemin  de vos fichiers
 
-require_once ('/var/www/html/DilixPay-PHP-SDK/DilixPay/autoload.php');
+require_once ('/var/www/html/DilixPay-PHP-SDK-1.1.0/DilixPay-PHP-SDK/DilixPay/autoload.php');
 
-require_once ('/var/www/html/DilixPay-PHP-SDK/exemple1/dbConfig.php');
+require_once ('/var/www/html/DilixPay-PHP-SDK-1.1.0/exemple1/dbConfig.php');
 
 try {
 
@@ -86,9 +86,6 @@ try {
 
 $response = DilixPayPHPSDK\DilixPay\DilixPay\Payments::create($payment_data,$dilixPay);
 
-     /* echo '<pre>';
-      print_r($response);
-      echo '</pre>';*/
 
 
 if (!empty($response->id)) {
